@@ -1,0 +1,13 @@
+/* index.css */
+@import "tailwindcss";
+
+/* make `dark:` respond to .dark on <html> */
+@custom-variant dark (&:where(.dark, .dark *));  /* <-- add this line */
+
+:root {
+  --primary: #0B5ED7;
+  --primary-hover: #084298;
+
+  --accent: #D70C09;
+  --accent-hover: #A50A07;
+}
