@@ -1,11 +1,11 @@
+import { Phone } from "lucide-react";
 import React, { useState } from "react";
 import { HashLink } from "react-router-hash-link";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const waNumber = "447746479840";
-  const waHref = `https://wa.me/${waNumber}`;
+  const Number = "+44 1744 371225";
 
   const scrollWithOffset = (el) => {
     const yOffset = -80;
@@ -32,17 +32,17 @@ export default function Header() {
             <HashLink smooth to="/#home" scroll={scrollWithOffset} className="text-gray-300 hover:text-white transition-colors">
               Home
             </HashLink>
-              <HashLink smooth to="/#about" scroll={scrollWithOffset} className="text-gray-300 hover:text-white transition-colors">
+            <HashLink smooth to="/#about" scroll={scrollWithOffset} className="text-gray-300 hover:text-white transition-colors">
               About
             </HashLink>
             <HashLink smooth to="/#services" scroll={scrollWithOffset} className="text-gray-300 hover:text-white transition-colors">
               Services
             </HashLink>
-          
+
             <HashLink smooth to="/#testimonials" scroll={scrollWithOffset} className="text-gray-300 hover:text-white transition-colors">
               Testimonials
             </HashLink>
-           
+
             <HashLink smooth to="/#contact" scroll={scrollWithOffset} className="text-gray-300 hover:text-white transition-colors">
               Contact
             </HashLink>
@@ -53,30 +53,25 @@ export default function Header() {
 
             {/* WhatsApp Desktop (LG+) */}
             <a
-              href={waHref}
-              target="_blank"
+              href={`tel:${Number}`}
               rel="noopener noreferrer"
-              aria-label="Chat on WhatsApp"
+              aria-label="Call on WhatsApp"
               className="hidden lg:inline-flex items-center gap-2 rounded-lg border border-red-500/40 bg-red-500/10 px-3 py-2 text-red-400 hover:text-white hover:bg-red-500/20 transition-colors"
             >
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="18" height="18" fill="currentColor">
-                <path d="M128 24a104 104 0 0 0-88.61 156.7L32 232l52.15-6.94A104 104 0 1 0 128 24Zm0 192a88 88 0 0 1-45.13-12.46l-3.26-1.94-31.1 4.14 4.22-30.62-2-3.33A88 88 0 1 1 128 216Zm48.9-54.21c-2.69 7.6-13.31 14.27-18.69 14.56-5 .28-11.34.4-32.82-9.72-27.6-13.18-45.51-39.08-46.91-40.94s-11.21-14.95-11.21-28.55 7.1-20.27 9.63-23.08a10.51 10.51 0 0 1 7.67-3.59c1.88 0 3.83 0 5.5.09a9.37 9.37 0 0 1 6.19 2.91c1.93 2.11 6.86 8.41 7.43 9.91s1.87 4.34.27 6.93-2.41 3.86-4.38 6.22c-2 2.35-4.15 4.19-1.78 8s7.69 12.63 16.53 20.45c11.36 10.09 20.92 13.21 24.59 14.7s5.93 1.24 8.13-.75 9.39-10.95 11.89-14.71 4.94-3.05 8.31-1.84 21.56 10.16 25.29 12c3.73 1.84 6.22 2.75 7.14 4.24s.95 7.54-1.74 15.13Z" />
-              </svg>
-              <span className="text-sm font-semibold whitespace-nowrap">WhatsApp</span>
+              <Phone size={18} />
+              <span className="text-sm font-semibold whitespace-nowrap">CallNow</span>
             </a>
 
             {/* WhatsApp Mobile/Tablet */}
             <a
-              href={waHref}
-              target="_blank"
+              href={`tel:${Number}`}
               rel="noopener noreferrer"
-              aria-label="Chat on WhatsApp"
+              aria-label="Call on WhatsApp"
               className="lg:hidden inline-flex items-center justify-center rounded-lg p-2 text-red-400 hover:text-white hover:bg-red-500/20 transition-colors"
             >
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="22" height="22" fill="currentColor">
-                <path d="M128 24a104 104 0 0 0-88.61 156.7L32 232l52.15-6.94A104 104 0 1 0 128 24Zm0 192a88 88 0 0 1-45.13-12.46l-3.26-1.94-31.1 4.14 4.22-30.62-2-3.33A88 88 0 1 1 128 216Zm48.9-54.21c-2.69 7.6-13.31 14.27-18.69 14.56-5 .28-11.34.4-32.82-9.72-27.6-13.18-45.51-39.08-46.91-40.94s-11.21-14.95-11.21-28.55 7.1-20.27 9.63-23.08a10.51 10.51 0 0 1 7.67-3.59c1.88 0 3.83 0 5.5.09a9.37 9.37 0 0 1 6.19 2.91c1.93 2.11 6.86 8.41 7.43 9.91s1.87 4.34.27 6.93-2.41 3.86-4.38 6.22c-2 2.35-4.15 4.19-1.78 8s7.69 12.63 16.53 20.45c11.36 10.09 20.92 13.21 24.59 14.7s5.93 1.24 8.13-.75 9.39-10.95 11.89-14.71 4.94-3.05 8.31-1.84 21.56 10.16 25.29 12c3.73 1.84 6.22 2.75 7.14 4.24s.95 7.54-1.74 15.13Z" />
-              </svg>
+              <Phone size={22} />
             </a>
+
 
             {/* Mobile/Tablet Menu Button */}
             <button
@@ -105,17 +100,17 @@ export default function Header() {
               <HashLink smooth to="/#home" scroll={scrollWithOffset} className="text-gray-300 hover:text-white transition-colors">
                 Home
               </HashLink>
-             
+
               <HashLink smooth to="/#about" scroll={scrollWithOffset} className="text-gray-300 hover:text-white transition-colors">
                 About
               </HashLink>
-               <HashLink smooth to="/#services" scroll={scrollWithOffset} className="text-gray-300 hover:text-white transition-colors">
+              <HashLink smooth to="/#services" scroll={scrollWithOffset} className="text-gray-300 hover:text-white transition-colors">
                 Services
               </HashLink>
               <HashLink smooth to="/#testimonials" scroll={scrollWithOffset} className="text-gray-300 hover:text-white transition-colors">
                 Testimonials
               </HashLink>
-              
+
               <HashLink smooth to="/#contact" scroll={scrollWithOffset} className="text-gray-300 hover:text-white transition-colors">
                 Contact
               </HashLink>
