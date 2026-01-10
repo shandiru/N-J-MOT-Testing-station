@@ -8,6 +8,8 @@ import PrivacyPolicy from "./components/PrivacyPolicy";
 import ScrollToTop from "./components/ScrollToTop";
 import Header from "./components/Header";
 import GDPRBanner from "../src/components/GDPRBanner"
+import Service from "./page/Service";
+
 function App() {
   return (
     <Router>
@@ -15,6 +17,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/service" element={<Service />} />
         <Route path="/terms-conditions" element={<TermsConditions />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
       </Routes>
