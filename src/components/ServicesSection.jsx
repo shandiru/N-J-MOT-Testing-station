@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { ArrowUpRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 export default function DesignCards() {
   const [hoveredCard, setHoveredCard] = useState(null);
@@ -78,7 +79,9 @@ export default function DesignCards() {
             }}
           >
             {/* Arrow Icon */}
-            <div className="absolute top-6 sm:top-8 right-6 sm:right-8 z-20">
+            <Link 
+              to="/service"
+              className="absolute top-6 sm:top-8 right-6 sm:right-8 z-20">
               <div className={`
                 w-10 h-10 sm:w-12 sm:h-12 rounded-full 
                 bg-white/5 backdrop-blur-sm
@@ -88,7 +91,7 @@ export default function DesignCards() {
               `}>
                 <ArrowUpRight className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
               </div>
-            </div>
+            </Link>
 
             {/* Content */}
             <div className="relative z-10 flex flex-col justify-between h-full pr-12 sm:pr-16 lg:pr-20">

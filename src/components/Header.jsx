@@ -40,7 +40,7 @@ export default function Header() {
 
             {/* Desktop Navigation (LG+) */}
             <nav className="hidden lg:flex items-center gap-8 lg:gap-10">
-              <HashLink smooth to="/#home" scroll={scrollWithOffset} className="text-gray-300 hover:text-white transition-colors">
+              <HashLink smooth to="/#" scroll={scrollWithOffset} className="text-gray-300 hover:text-white transition-colors">
                 Home
               </HashLink>
               <HashLink smooth to="/#about" scroll={scrollWithOffset} className="text-gray-300 hover:text-white transition-colors">

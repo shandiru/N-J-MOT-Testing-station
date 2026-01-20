@@ -52,7 +52,7 @@ export default function HeroSection() {
             Professional MOT & Vehicle
             <span className="block"></span>
             <span style={{ color: "var(--primary)" }}>
-              Servicing in Skegness
+              Servicing in St helens 
             </span>
           </h1>
 

@@ -25,7 +25,7 @@ export default function EmergencyCTA() {
 
         {/* Updated Description */}
         <p className="text-xl mb-8 opacity-90">
-          N&J MOT Centre in Skegness provides expert MOT testing, servicing, and repairs for all vehicles. Call our friendly team or request a quote online today!
+          N&J MOT Centre in St helens  provides expert MOT testing, servicing, and repairs for all vehicles. Call our friendly team or request a quote online today!
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">

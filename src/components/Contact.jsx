@@ -98,12 +98,12 @@ ${formData.message}
               Email: <a href="mailto:n_causer@yahoo.co.uk" className="hover:text-[#D70C09]">n_causer@yahoo.co.uk</a>
             </p>
             <a
-              href="https://maps.app.goo.gl/E7Xm6VpqUB6j5TTH8"
+              href="https://maps.app.goo.gl/2vwTEYasb2WVTAan7"
               target="_blank"
               rel="noopener noreferrer"
             >
               <p className="text-[#C0C0C0] font-medium">
-                Address: 41 Dentons Green Ln, Windle, Saint Helens WA10 2QF, United Kingdom
+                Address: Windle, 41-43 Dentons Green Ln, Saint Helens WA10 2QE, United Kingdom
               </p>
             </a>
           </div>

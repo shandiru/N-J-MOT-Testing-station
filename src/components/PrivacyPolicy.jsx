@@ -114,7 +114,7 @@ const PrivacyPolicy = () => {
   <p><strong>N&J MOT Testing station </strong></p>
   <p>Email: <a href="mailto:causerjennifer@yahoo.co.uk" className="text-[#D70C09] hover:underline">causerjennifer@yahoo.co.uk</a></p>
   <p>Phone: +44 7746 479840</p>
-  <p>Address: Grantham Dr, Skegness PE25 3RN, United Kingdom</p>
+  <p>Address: Windle, 41-43 Dentons Green Ln, Saint Helens WA10 2QE, United Kingdom</p>
 </div>
 
                     </div>
