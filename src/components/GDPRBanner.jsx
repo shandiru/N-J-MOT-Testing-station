@@ -54,13 +54,13 @@ export default function GDPRConsent() {
               onClick={handleReject}
               className="px-5 py-2 rounded-md bg-gray-700 text-white text-sm hover:bg-[#D70C09] transition"
             >
-              ❌ Reject
+               Reject
             </button>
             <button
               onClick={handleAccept}
               className="px-5 py-2 rounded-md text-sm text-white bg-[#D70C09] hover:opacity-90 transition"
             >
-              🍪 Accept
+               Accept
             </button>
           </div>
         </div>
