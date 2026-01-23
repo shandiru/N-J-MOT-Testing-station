@@ -1,21 +1,7 @@
-"use client";
-
-import React, { useEffect, useState } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
+import React, { useState } from "react";
 
 export default function ContactSection() {
-  useEffect(() => {
-    AOS.init({
-      duration: 900,
-      easing: "ease-out-cubic",
-      once: true,
-    });
-  }, []);
 
-  /* =======================
-     FORM FUNCTIONALITY
-  ======================= */
   const [formData, setFormData] = useState({
     name: "",
     email: "",

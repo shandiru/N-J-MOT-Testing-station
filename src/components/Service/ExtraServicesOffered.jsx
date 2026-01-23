@@ -1,20 +1,11 @@
-"use client";
-
 import React, { useState, useEffect } from "react";
 import { Gauge, Copy } from "lucide-react";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 export default function ExtraServicesOffered() {
   const [activeIndex, setActiveIndex] = useState(null);
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
-    AOS.init({
-      duration: 700,
-      once: true,
-      easing: "ease-out-quart",
-    });
 
     const checkMobile = () => setIsMobile(window.innerWidth < 768);
     checkMobile();

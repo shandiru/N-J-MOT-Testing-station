@@ -1,4 +1,4 @@
-"use client";
+
 import React from "react";
 import { Link } from "react-router-dom";
 
@@ -16,6 +16,7 @@ export default function Footer() {
             {/* Logo */}
             <img
               src="/logo.png"
+              loading="lazy"
               alt="N&J MOT Testing station  Logo"
               className="h-12 w-auto mb-4"
             />

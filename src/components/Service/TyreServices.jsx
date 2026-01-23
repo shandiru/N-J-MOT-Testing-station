@@ -1,4 +1,4 @@
-"use client";
+
 import React, { useState } from "react";
 import { FaCheckCircle } from "react-icons/fa";
 
@@ -77,30 +77,6 @@ export default function NandJServices() {
       ],
     },
     {
-      key: "aircon",
-      title: "Air Con Re-Gas",
-      desc: "Complete air conditioning servicing and re-gas for optimal cooling performance.",
-      whyTitle: "Why Service Your Air Conditioning System?",
-      whyDesc:
-        "Your vehicle's air conditioning system plays a vital role in comfort and visibility. Regular air con servicing and re-gassing ensure efficient cooling, clean airflow, and reliable performance throughout the year.",
-      benefitsTitle: "Benefits of Air Con Re-Gas & Servicing",
-      benefits: [
-        "Restores cold, efficient airflow",
-        "Improves cabin comfort",
-        "Prevents system leaks and damage",
-        "Removes unpleasant odours",
-        "Helps demist windows faster",
-      ],
-      signsTitle: "Signs Your Air Con Needs Re-Gassing",
-      signs: [
-        "Air is no longer blowing cold",
-        "Weak airflow from vents",
-        "Unpleasant smells when air con is on",
-        "Windows taking longer to demist",
-        "Air con hasn't been serviced recently",
-      ],
-    },
-    {
       key: "wetbelt",
       title: "Wet Belt Services",
       desc: "Inspection and replacement of wet belts to ensure smooth operation of your engine.",
@@ -143,7 +119,7 @@ export default function NandJServices() {
         </div>
 
         {/* Service Boxes */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6 mb-16">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
           {services.map((s) => (
             <div
               key={s.key}

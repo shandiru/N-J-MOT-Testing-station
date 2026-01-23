@@ -1,5 +1,3 @@
-// File: WheelTyreHero.jsx
-'use client'
 import React from "react";
 import { FaPhoneAlt } from "react-icons/fa";
 

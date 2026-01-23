@@ -2,38 +2,38 @@ import React from 'react';
 
 const reviews = [
   {
-    text: "My car recently broke down in Manchester, Neil and Jen were able to arrange someone to tow the vehicle to their garage. Work was carried out which wasn't easy and my car was returned with all work completed to a high standard. Thank you so much.",
-    name: "Emma Spruell",
+    text: "Had my car MOT here today, excellent service as always. My go-to garage for a service or any advice as well. Everyone is really trust worthy and friendly - highly recommend. Thanks again!",
+    name: "Sophie Armer",
     aos: "fade-up",
     delay: 0,
   },
   {
-    text: "Took my bmw in for an interim service, change the ignition coils, and to change the lambda sensor. Diagnostic done and I was advised I didn't need one, money saved. All other jobs done professionally and with care. My car is now driving like a new car. This garage is more than a 5☆ and are totally honest. I would highly recommend",
-    name: "Stephen Clarke",
+    text: "Neil installed a new ABS pump/module on my vehicle, and charged me a reasonable price. He completed the job in the time frame he said he would, then got my MOT booked in time for me to go to the south for bank holiday weekend. So 10/10 on my only dealing with them - my now 'go to'.",
+    name: "Hayden Jones",
     aos: "fade-down",
     delay: 100,
   },
   {
-    text: "What an absolute find this place is, fitted my own parts for me at a very reasonable price. I've been a taxi driver for 12 years and been to many garages, some rip offs but definitely not these guys. I will most definitely return here in future. Neil and team are fantastic. Thanks again N and J",
-    name: "Leanne Williams",
+    text: "Took my daughters Polo for an oil change. Straightforward, no issues. Would recommend.",
+    name: "David Rigby",
     aos: "fade-up",
     delay: 200,
   },
   {
-    text: "Went for my mot this morning couldn't believe how hasstle free it was thanks guys wonderful service.",
-    name: "Pat Swain",
+    text: "A good, reliable garage with friendly staff and an always happy to help attitude is very hard to find!! It is nice to know that if my cars need anything doing that Neil will be there to help get me back on the road without any fuss. I can't recommend him highly enough! Simply the Best!",
+    name: "Richie Deane",
     aos: "fade-down",
     delay: 300,
   },
   {
-    text: "Really friendly place and pleasant people. Good reliable honest garage. Having been a mechanic for many years and now not on the spanners anymore I don't take my car anywhere else! Highly recommended. Thanks n&j",
-    name: "Ad Gray",
+    text: "First time using NJ Autocare and very happy with the service. New timing belt & water pump replacement done efficiently at a good price. Will be using Neil moving forward for all my cars needs. Thanks again.",
+    name: "Martin Lankertis",
     aos: "fade-up",
     delay: 400,
   },
   {
-    text: "Had my MOT done here today. Great customer service with friendly staff. Fab location and easy to get to. Genuine and don't try to rip you off! Thanks!",
-    name: "Jenny Gore",
+    text: "Had an emergency situation with two of my vans at the same time. Neil not only fixed my vans promptly, but he actually made me feel easy about the situation and charged me a very fair price. Thanks for everything Neil. I will be using you from now on. Great service!",
+    name: "Prescot Fencing",
     aos: "fade-down",
     delay: 500,
   },
@@ -88,15 +88,6 @@ const Testimonials = () => {
       {/* BACKGROUND GLOWS */}
       <div className="absolute top-0 right-0 w-96 h-96 bg-[var(--primary)]/10 blur-3xl rounded-full" />
       <div className="absolute bottom-0 left-0 w-96 h-96 bg-[var(--accent)]/10 blur-3xl rounded-full" />
-
-      {/* Background Image */}
-      {/* <div
-          className="absolute inset-0 bg-center bg-no-repeat opacity-100"
-          style={{
-            backgroundImage: "url('logo.png')",
-            backgroundSize: "contain", // makes it zoom out instead of cover
-          }}
-        ></div> */}
 
       <div className="relative z-10 max-w-7xl mx-auto">
         {/* Header */}

@@ -25,12 +25,6 @@ export default function DesignCards() {
       colSpan: "md:col-span-2"
     },
     {
-      id: 4,
-      title: "Air Con Re-Gas",
-      description: "Complete air conditioning servicing and re-gas for optimal cooling performance.",
-      colSpan: "md:col-span-1"
-    },
-    {
       id: 5,
       title: "Wet Belt Services",
       description: "Inspection and replacement of wet belts to ensure smooth engine operation.",

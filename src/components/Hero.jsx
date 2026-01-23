@@ -1,20 +1,10 @@
-"use client";
-import React, { useEffect, useState } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
+
+import React, { useState } from "react";
 import { FaCar, FaTools, FaSnowflake } from "react-icons/fa";
 
 export default function HeroSection() {
   const PHONE = "+44 1744 371225";
   const TEL_LINK = "tel:+44 1744 371225";
-
-  useEffect(() => {
-    AOS.init({
-      duration: 1000,
-      easing: "ease-out-cubic",
-      once: false,
-    });
-  }, []);
 
   const [isPopupOpen, setIsPopupOpen] = useState(false);
   const bookingUrl = "https://www.bookinmycar.co.uk/book_online/?key=17-987w54-soiubs0r780bu0erwgh43630B809f09f8g09bndorlfs-89048f&g=1&sl=Trchi";
@@ -31,14 +21,16 @@ export default function HeroSection() {
     <section className="relative bg-black overflow-hidden py-28 md:py-36" id="home">
       {/* Video Background */}
       <video
-        className="absolute inset-0 w-full h-full object-cover z-0"
+        className="absolute inset-0 w-full h-full object-cover"
         src="/video.mp4"
         autoPlay
         loop
         muted
         playsInline
-      />
-
+        poster="/fall.png"
+        onError={(e) => (e.currentTarget.style.display = "none")}
+      >
+      </video>
       {/* Overlay */}
       <div className="absolute inset-0 bg-black/60 z-0"></div>
 
@@ -52,7 +44,7 @@ export default function HeroSection() {
             Professional MOT & Vehicle
             <span className="block"></span>
             <span style={{ color: "var(--primary)" }}>
-              Servicing in St helens 
+              Servicing in St helens
             </span>
           </h1>
 

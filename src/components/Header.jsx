@@ -30,9 +30,10 @@ export default function Header() {
           <div className="flex items-center justify-between h-16">
 
             {/* Logo */}
-            <div className="flex items-center min-w-0">
+            <div className="flex items-center">
               <img
                 src="/logo.png"
+                loading="lazy"
                 alt="Broadway"
                 className="rounded-full w-full h-14 lg:w-full lg:h-16 flex-shrink-0"
               />

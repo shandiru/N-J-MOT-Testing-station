@@ -1,4 +1,3 @@
-"use client";
 import React from "react";
 import {
   FaCarSide,
@@ -58,19 +57,6 @@ export default function WheelAlignmentServices() {
         "Smoother throttle response",
         "Enhanced driving experience",
         "Tailored performance for your driving style",
-      ],
-    },
-    {
-      title: "Air Con Re-Gas",
-      desc: "Complete air conditioning servicing and re-gas for optimal cooling performance.",
-      icon: <FaSnowflake className="h-5 w-5" />,
-      iconBg: palette.secondary,
-      points: [
-        "Restores cold, efficient airflow",
-        "Improves cabin comfort",
-        "Prevents leaks and damage",
-        "Removes unpleasant odours",
-        "Helps demist windows faster",
       ],
     },
     {
