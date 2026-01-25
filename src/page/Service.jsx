@@ -7,7 +7,6 @@ import WheelTyreHero from "../components/Service/ServiceHero";
 export default function Service() {
     return (
         <div>
-            {/* Hero */}
             <section >
                 <WheelTyreHero />
             </section>
@@ -16,8 +15,6 @@ export default function Service() {
             </section>
             <section >
                 <TyreServices />
-            </section>
-            <section >
             </section>
             <section >
                 <EmergencyCTA />

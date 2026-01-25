@@ -11,3 +11,11 @@
   --accent: #D70C09;
   --accent-hover: #A50A07;
 }
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
