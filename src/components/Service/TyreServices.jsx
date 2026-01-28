@@ -5,7 +5,7 @@ export default function NandJServices() {
   const services = [
     {
       key: "mot",
-      title: "MOT Testing (Class 4, 5 & 7)",
+      title: "MOT Testing (Class 4)",
       desc: "Certified MOT testing for cars and LCVs, ensuring safety and compliance.",
       whyTitle: "Why Choose MOT Testing?",
       whyDesc:

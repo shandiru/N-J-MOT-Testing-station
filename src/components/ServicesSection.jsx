@@ -20,7 +20,7 @@ export default function DesignCards() {
     },
     {
       id: 3,
-      title: "MOT Testing (Class 4, 5 & 7)",
+      title: "MOT Testing (Class 4)",
       description: "Certified MOT testing for cars and LCVs, ensuring safety and compliance.",
       colSpan: "md:col-span-2"
     },

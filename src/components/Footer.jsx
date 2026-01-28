@@ -27,7 +27,7 @@ export default function Footer() {
 
             <p className="text-[#C0C0C0] mt-3 text-sm leading-relaxed">
               Professional MOT testing, servicing, and engine tuning.
-              Trusted for repairs, air con regass, wet belts, and MOT classes 4, 5 & 7.
+              Trusted for repairs, air con regass, wet belts, and MOT class 4.
             </p>
           </div>
 
@@ -38,9 +38,9 @@ export default function Footer() {
               <li className="hover:text-[#D70C09] transition">Services & Repairs</li>
               <li className="hover:text-[#D70C09] transition">Air Con Regass</li>
               <li className="hover:text-[#D70C09] transition">Engine Tuning</li>
-              <li className="hover:text-[#D70C09] transition">MOT Class 4, 5 & 7</li>
+              <li className="hover:text-[#D70C09] transition">MOT Class 4</li>
               <li className="hover:text-[#D70C09] transition">Wet Belts</li>
-                     </ul>
+            </ul>
           </div>
 
           {/* ================= CONTACT INFO ================= */}
@@ -87,7 +87,7 @@ export default function Footer() {
 
         {/* ================= BOTTOM ================= */}
         <div className="border-t border-[#1C1C1C] mt-10 pt-6 text-center text-[#868386] text-sm">
-          <p>&copy; 2025 N&J MOT Testing station . All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} N&J MOT Testing Station. All rights reserved.</p>
         </div>
 
         {/* ================= POWERED BY ================= */}

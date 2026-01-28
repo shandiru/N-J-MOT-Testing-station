@@ -54,7 +54,7 @@ export default function HeroSection() {
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            N&J MOT Testing station  offers MOT Class 4, 5 & 7 testing, vehicle servicing,
+            N&J MOT Testing station  offers MOT Class 4 testing, vehicle servicing,
             repairs, air conditioning re-gas, engine tuning and wet belt
             services.
           </p>
@@ -100,7 +100,7 @@ export default function HeroSection() {
                 <FaCar />
               </div>
               <h3 className="text-lg font-semibold text-white mb-2">
-                MOT Class 4, 5 & 7
+                MOT Class 4
               </h3>
               <p className="text-sm text-gray-300">
                 Certified MOT testing for cars, vans and light commercials.

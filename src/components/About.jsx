@@ -75,7 +75,7 @@ export default function AboutSectionModern() {
             {[
               {
                 title: "Certified MOT Testing",
-                desc: "MOT Class 4, 5 & 7 testing using modern approved equipment.",
+                desc: "MOT Class 4 testing using modern approved equipment.",
               },
               {
                 title: "Advanced Diagnostics",
